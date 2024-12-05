@@ -1,0 +1,28 @@
+footer{
+    color: white;
+    
+}
+
+.cardRedes{
+    height: 15vh;
+    background-color: #005695;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 15vw;
+}
+.cardTexto{
+    height: 10vh;
+    background-color: #232020;
+    color: white;
+    text-align: center;
+    padding-top: 1.2rem;
+}
