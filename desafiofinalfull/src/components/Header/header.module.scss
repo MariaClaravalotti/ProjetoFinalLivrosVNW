@@ -3,55 +3,57 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, rgba(0,27,47,1) 0%, rgba(0,86,149,1) 88%);
+    background: linear-gradient(90deg, rgba(0, 27, 47, 1) 0%, rgba(0, 86, 149, 1) 88%);
     list-style: none;
-    }
-
-.boxLogo{
-   width: 20vw;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   color: white;
-   height: 15vh;
-
-   img{
-    height: 8vh;
-   }
-
-   h1{
-    font-size: 20px;
-   }
 }
 
-.boxMenu{
-    width: 40vw;
-        
+.boxLogo {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 15vh;
 
-    ul{
+    img {
+        height: 8vh;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+.boxMenu {
+    width: 40vw;
+
+
+    ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
         font-size: 20px;
         width: 25vw;
-        a{
+
+        a {
             color: white;
-           
+
         }
-        &:hover{
-            box-shadow:0 0 40px rgb(134, 134, 219) ;
+
+        &:hover {
+            box-shadow: 0 0 40px rgb(134, 134, 219);
             cursor: pointer;
         }
     }
 }
 
-.boxSearch{
+.boxSearch {
     border: solid white;
     border-radius: 15px;
     width: 20vw;
     height: 6vh;
     display: flex;
-    align-items: center;   
+    align-items: center;
     justify-content: space-around;
     margin-right: 20px;
 }
@@ -60,9 +62,42 @@ header {
     outline: none;
     background-color: transparent;
     border: none;
-    
-    &::placeholder{
+
+    &::placeholder {
         color: white;
+    }
+
+}
+
+@media(max-width: 400px) {
+    header {
+        flex-direction: column;
+        height: 20vh;
+        justify-content: space-around;
+
+    }
+
+    .boxLogo {
+        width: 75%;
+
+        h1 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .boxMenu {
+        width: 100%;
+
+        ul {
+            font-size: 1rem;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+    }
+
+    .boxSearch {
+        display: none;
     }
 
 }

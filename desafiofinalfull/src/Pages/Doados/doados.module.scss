@@ -1,21 +1,22 @@
-.cardDoados{ 
+.cardDoados {
     height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
-.boxcard{
-   height: 50vh;
-   width: 80vw;
-   display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;
-   gap:10px;
-   article{
-        border:  solid 2px #005695;
+.boxCard {
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    article {
+        border: solid 2px #005695;
         width: 200px;
         height: 32vh;
         display: flex;
@@ -23,16 +24,35 @@
         align-items: center;
         flex-direction: column;
         border-radius: 13px;
-        img{
+
+        img {
             padding-bottom: 20px;
-        
+
         }
-        
+
     }
-    .bobLivro{
+
+    .bobLivro {
         width: 8vw;
         height: 17vh;
     }
-   
 
+
+}
+
+@media(max-width:400px) {
+    .boxCard {
+        height: auto;
+
+        article {
+            height: auto;
+            padding: 1rem;
+        }
+
+        .bobLivro {
+            width: auto;
+        }
+
+
+    }
 }

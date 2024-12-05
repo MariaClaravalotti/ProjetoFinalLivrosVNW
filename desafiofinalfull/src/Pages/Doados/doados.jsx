@@ -7,24 +7,24 @@ export default function Doados() {
         <section className={S.cardDoados}>
             <h2>Livros Doados </h2>
 
-            <section className={S.boxcard}>
-               <article>
-                <img src={livro} alt="imagem do liro o protagonista" />
+            <section className={S.boxCard}>
+                <article>
+                    <img src={livro} alt="imagem do liro o protagonista" />
 
-                <h3>O Protagosnista</h3>
-                <p>Susanne Andrade</p>
-                <p>Ficção</p>
+                    <h3>O Protagosnista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
                 </article>
-                 <article>
+                <article>
                     <img src={Bob} alt="imagem do livro penso e acontece" className={S.bobLivro} />
-                    
+
                     <h3>Penso e Acontece</h3>
                     <p>Bob Proctor</p>
                     <p>Autoconhecimento</p>
-                    
-                  </article>
 
-</section>
+                </article>
+
+            </section>
         </section>
     )
 }
