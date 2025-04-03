@@ -28,7 +28,7 @@ flask_api_sqlite/
 
 1️⃣ Clonar o Repositório
 
-git clone https://github.com/seu-usuario/flask_api_sqlite.git
+git clone https://github.com/MariaClaravalotti/ProjetoFinalLivrosVNW.git
 cd flask_api_sqlite
 
 2️⃣ Criar um Ambiente Virtual (Opcional, mas Recomendado)
